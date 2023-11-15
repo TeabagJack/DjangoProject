@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+{% load static tailwind_tags%}
+<html>
+  <head>
+
+    {% tailwind_css %}
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{% static 'global.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div
+      class="relative bg-neutral-gray-gray-25 w-full overflow-hidden flex flex-row items-start justify-start text-left text-sm text-neutral-black-black-500 font-text-l-bold"
+    >
+      <div
+        class="bg-neutral-white shadow-[4px_0px_30px_rgba(131,_98,_234,_0.05)] box-border w-[264px] h-[1080px] overflow-hidden shrink-0 flex flex-col items-start justify-start border-r-[1px] border-solid border-neutral-gray-gray-50"
+      >
+        <div
+          class="self-stretch h-16 flex flex-col items-start justify-center py-2 px-5 box-border"
+        >
+          <div class="self-stretch flex flex-row items-center justify-start">
+            <img
+              class="relative w-[92px] h-[33px] object-cover"
+              alt=""
+              src="{% static 'public/image-1@2x.png' %}"
+            />
+          </div>
+        </div>
+        <div
+          class="self-stretch flex-1 flex flex-col items-start justify-start mt-[-9px]"
+        >
+          <div
+            class="self-stretch flex-1 flex flex-col items-start justify-start pt-6 px-[18px] pb-8 gap-[8px]"
+          >
+            <div
+              class="self-stretch rounded-lg bg-primary-primary-500 flex flex-row items-center justify-start py-2 px-3 gap-[8px] text-neutral-white"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt.svg' %}"
+              />
+
+              <b class="flex-1 relative tracking-[0.01em] leading-[20px]"
+                >Menu</b
+              >
+            </div>
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+              <div
+                class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+              >
+                <div
+                  class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                >
+                  13
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+              <div
+                class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+              >
+                <div
+                  class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                >
+                  5
+                </div>
+              </div>
+              <img
+                class="relative w-[22px] h-[22px] overflow-hidden shrink-0 hidden"
+                alt=""
+                src="{% static 'public/chevron-down.svg' %}"
+              />
+            </div>
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+            </div>
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+            </div>
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+              <div
+                class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+              >
+                <div
+                  class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                >
+                  13
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+              <div
+                class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+              >
+                <div
+                  class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                >
+                  5
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+            </div>
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+            </div>
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-col items-start justify-start py-6 px-[18px] gap-[8px]"
+          >
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+            </div>
+            <div
+              class="self-stretch rounded-lg flex flex-row items-center justify-start py-2 px-3 gap-[8px]"
+            >
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0"
+                alt=""
+                src="{% static 'public/grid-alt1.svg' %}"
+              />
+
+              <div
+                class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+              >
+                Menu
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-[1176px] h-[1080px] overflow-hidden shrink-0 flex flex-col items-start justify-start text-neutral-black-black-800"
+      >
+        <div
+          class="self-stretch bg-neutral-white shadow-[0px_4px_30px_rgba(131,_98,_234,_0.05)] flex flex-row items-center justify-between py-4 px-6 z-[1] border-b-[1px] border-solid border-neutral-gray-gray-50"
+        >
+          <img
+            class="relative w-6 h-6 overflow-hidden shrink-0"
+            alt=""
+            src="{% static 'public/menu.svg' %}"
+          />
+
+          <div
+            class="self-stretch flex flex-row items-center justify-start gap-[12px]"
+          >
+            <div class="flex flex-col items-end justify-start relative">
+              <div
+                class="relative rounded-81xl [background:linear-gradient(180deg,_#5c44a2,_rgba(160,_151,_184,_0))] w-8 h-8 z-[0]"
+              ></div>
+              <div
+                class="absolute my-0 mx-[!important] right-[-2px] bottom-[-2px] rounded-[50%] bg-secondary-green-green-400 box-border w-3.5 h-3.5 z-[1] border-[2px] border-solid border-neutral-white"
+              ></div>
+            </div>
+            <div class="flex flex-col items-start justify-center gap-[2px]">
+              <div
+                class="relative tracking-[0.01em] leading-[20px] font-medium"
+              >
+                Teacher Name
+              </div>
+              <div
+                class="relative text-xs tracking-[0.01em] leading-[18px] font-medium text-neutral-black-black-500"
+              >
+                Proof Teacher
+              </div>
+            </div>
+            <img
+              class="relative w-5 h-5 overflow-hidden shrink-0"
+              alt=""
+              src="{% static 'public/chevron-down1.svg' %}"
+            />
+          </div>
+        </div>
+        <div
+          class="self-stretch flex flex-col items-start justify-start py-8 px-6 z-[0] text-secondary-yellow-yellow-500"
+        >
+          <div
+            class="self-stretch h-[922px] flex flex-row items-start justify-start z-[0]"
+          >
+            <div
+              class="rounded-lg shadow-[0px_1.5px_2px_rgba(16,_24,_40,_0.1)] box-border w-[1128px] h-[908px] overflow-hidden shrink-0 flex flex-row items-center justify-start border-[1px] border-solid border-neutral-gray-gray-100"
+            >
+              <div
+                class="self-stretch bg-neutral-white box-border w-80 flex flex-col items-start justify-start border-r-[1px] border-solid border-neutral-gray-gray-100"
+              >
+                <div
+                  class="self-stretch flex flex-col items-start justify-start pt-5 px-5 pb-4"
+                >
+                  <div
+                    class="self-stretch rounded-lg bg-neutral-gray-gray-25 overflow-hidden flex flex-row items-center justify-start py-2 px-3 gap-[4px] border-[1px] border-solid border-neutral-gray-gray-100"
+                  >
+                    <img
+                      class="relative w-6 h-6 overflow-hidden shrink-0"
+                      alt=""
+                      src="{% static 'public/search.svg' %}"
+                    />
+
+                    <div
+                      class="flex-1 h-6 overflow-hidden flex flex-row items-center justify-start"
+                    >
+                      <div
+                        class="relative tracking-[0.01em] leading-[20px] [background:linear-gradient(rgba(0,_0,_0,_0.2),_rgba(0,_0,_0,_0.2)),_linear-gradient(rgba(0,_0,_0,_0.2),_rgba(0,_0,_0,_0.2)),_linear-gradient(rgba(0,_0,_0,_0.2),_rgba(0,_0,_0,_0.2)),_#858d9d] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
+                      >
+                        Search Rubric . .
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="self-stretch flex-1 flex flex-col items-start justify-start"
+                >
+                  <div
+                    class="self-stretch bg-neutral-white flex flex-row items-center justify-start py-3 px-5 gap-[12px]"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-secondary-red-red-500 w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold hidden"
+                        >
+                          TM
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+                    >
+                      <div
+                        class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                      >
+                        99+
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch bg-primary-primary-200 flex flex-row items-center justify-start py-3 px-5 gap-[12px] text-primary-primary-500"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-secondary-green-green-500 w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold"
+                        ></div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-row items-center justify-start py-3 px-5 gap-[12px]"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-secondary-red-red-500 w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold hidden"
+                        >
+                          TM
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+                    >
+                      <div
+                        class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                      >
+                        99+
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-row items-center justify-start py-3 px-5 gap-[12px]"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-darkorange w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold hidden"
+                        >
+                          TM
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+                    >
+                      <div
+                        class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                      >
+                        99+
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-row items-center justify-start py-3 px-5 gap-[12px]"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-darkorange w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold hidden"
+                        >
+                          TM
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+                    >
+                      <div
+                        class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                      >
+                        99+
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-row items-center justify-start py-3 px-5 gap-[12px] text-primary-primary-500"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-secondary-green-green-500 w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold"
+                        ></div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-row items-center justify-start py-3 px-5 gap-[12px] text-primary-primary-500"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-secondary-green-green-500 w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold"
+                        ></div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-row items-center justify-start py-3 px-5 gap-[12px] text-primary-primary-500"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-secondary-green-green-500 w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold"
+                        ></div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-row items-center justify-start py-3 px-5 gap-[12px]"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-secondary-red-red-500 w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold hidden"
+                        >
+                          TM
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+                    >
+                      <div
+                        class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                      >
+                        99+
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="self-stretch flex flex-row items-center justify-start py-3 px-5 gap-[12px]"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-darkorange w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold hidden"
+                        >
+                          TM
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+                    >
+                      <div
+                        class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                      >
+                        99+
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1 w-80 flex flex-row items-center justify-start py-3 px-5 box-border gap-[12px]"
+                  >
+                    <div class="flex flex-col items-end justify-start">
+                      <div
+                        class="rounded-81xl bg-secondary-red-red-500 w-10 h-10 overflow-hidden shrink-0 flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <div
+                          class="relative tracking-[0.01em] leading-[20px] font-semibold hidden"
+                        >
+                          TM
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px] text-neutral-black-black-800"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Rubric
+                      </div>
+                      <div
+                        class="self-stretch relative text-xs tracking-[0.01em] leading-[18px] text-neutral-black-black-500 inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[18px] shrink-0"
+                      >
+                        Grade and info
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-81xl bg-secondary-red-red-500 hidden flex-col items-center justify-center py-0.5 px-1.5 text-3xs text-neutral-white"
+                    >
+                      <div
+                        class="relative tracking-[0.01em] leading-[136%] font-semibold"
+                      >
+                        99+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative w-80 h-36 text-neutral-white">
+                    <div
+                      class="absolute top-[0px] left-[0px] bg-neutral-white box-border w-80 h-[68.6px] flex flex-row items-start justify-start p-4 gap-[16px] border-t-[1px] border-solid border-neutral-gray-gray-100"
+                    >
+                      <div
+                        class="flex-1 rounded-lg bg-neutral-gray-gray-25 overflow-hidden flex flex-row items-center justify-start py-2 px-3 gap-[4px] border-[1px] border-solid border-neutral-gray-gray-100"
+                      >
+                        <div
+                          class="flex-1 h-6 overflow-hidden flex flex-row items-center justify-start"
+                        >
+                          <div
+                            class="relative tracking-[0.01em] leading-[20px] [background:linear-gradient(rgba(0,_0,_0,_0.2),_rgba(0,_0,_0,_0.2)),_linear-gradient(rgba(0,_0,_0,_0.2),_rgba(0,_0,_0,_0.2)),_linear-gradient(rgba(0,_0,_0,_0.2),_rgba(0,_0,_0,_0.2)),_#858d9d] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
+                          >
+                            Upload Rubric
+                          </div>
+                        </div>
+                        <img
+                          class="relative w-6 h-6 overflow-hidden shrink-0"
+                          alt=""
+                          src="{% static 'public/paper-clip.svg' %}"
+                        />
+                      </div>
+                      <div
+                        class="rounded-lg bg-primary-primary-500 overflow-hidden flex flex-row items-center justify-center p-2.5"
+                      >
+                        <img
+                          class="relative w-5 h-5 overflow-hidden shrink-0"
+                          alt=""
+                          src="{% static 'public/send.svg' %}"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="absolute top-[72px] left-[0px] bg-neutral-white box-border w-80 h-[72px] text-center text-base border-t-[1px] border-solid border-neutral-gray-gray-100"
+                    >
+                      <div
+                        class="absolute top-[19px] left-[51px] rounded-lg bg-primary-primary-500 w-[218px] h-[35px] overflow-hidden flex flex-row items-center justify-center p-2.5 box-border"
+                      >
+                        <b class="relative tracking-[0.01em] leading-[24px]"
+                          >Generate Rubrics</b
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex-1 h-[908px] flex flex-col items-start justify-start text-neutral-black-black-800"
+              >
+                <div
+                  class="self-stretch bg-neutral-white flex flex-row items-center justify-start p-5 gap-[16px] border-b-[1px] border-solid border-neutral-gray-gray-100"
+                >
+                  <div class="flex-1 flex flex-row items-start justify-start">
+                    <div
+                      class="flex-1 flex flex-col items-start justify-center gap-[2px]"
+                    >
+                      <div
+                        class="self-stretch relative tracking-[0.01em] leading-[20px] font-medium"
+                      >
+                        Question 1
+                      </div>
+                      <div
+                        class="self-stretch relative text-5xl tracking-[0.01em] leading-[32px] text-neutral-black-black-500 text-center overflow-hidden text-ellipsis whitespace-nowrap"
+                      >
+                        Prove P = NP
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    class="relative w-5 h-5 overflow-hidden shrink-0 hidden"
+                    alt=""
+                    src="{% static 'public/notification.svg' %}"
+                  />
+
+                  <img
+                    class="relative w-5 h-5 overflow-hidden shrink-0 hidden"
+                    alt=""
+                    src="{% static 'public/search1.svg' %}"
+                  />
+
+                  <img
+                    class="relative w-5 h-5 overflow-hidden shrink-0"
+                    alt=""
+                    src="{% static 'public/dots-vertical.svg' %}"
+                  />
+                </div>
+                <div
+                  class="self-stretch flex-1 bg-neutral-gray-gray-25 overflow-hidden flex flex-col items-start justify-end p-5 text-neutral-black-black-700"
+                >
+                  <div class="w-[728px] flex flex-col items-end justify-start">
+                    <div
+                      class="self-stretch flex flex-row items-end justify-start"
+                    >
+                      <div
+                        class="flex-1 flex flex-col items-end justify-start py-0 pr-0 pl-[120px]"
+                      >
+                        <div
+                          class="self-stretch rounded-t-lg rounded-br-none rounded-bl-lg bg-neutral-white overflow-hidden flex flex-col items-start justify-start py-2.5 px-3 gap-[8px] border-[1px] border-solid border-neutral-gray-gray-100"
+                        >
+                          <img
+                            class="relative w-4 h-4 overflow-hidden shrink-0"
+                            alt=""
+                            src="{% static 'public/dots-horizontal.svg' %}"
+                          />
+
+                          <div
+                            class="self-stretch relative tracking-[0.01em] leading-[20px]"
+                          >
+                            Neat own nor she said see walk. And charm add green
+                            you these. Sang busy in this drew ye fine. At
+                            greater prepare musical so attacks as on distant.
+                            Improving age our her cordially intention. His
+                            devonshire sufficient precaution say preference
+                            middletons insipidity. Since might water hence the
+                            her worse. Concluded it offending dejection do
+                            earnestly as me direction. Nature played thirty all
+                            him.Cultivated who resolution connection motionless
+                            did occasional. Journey promise if it colonel. Can
+                            all mirth abode nor hills added. Them men does for
+                            body pure. Far end not horses remain sister. Mr
+                            parish is to he answer roused piqued afford sussex.
+                            It abode words began enjoy years no do no. Tried
+                            spoil as heart visit blush or. Boy possible blessing
+                            sensible set but margaret interest. Off tears are
+                            day blind smile alone had.Prevailed sincerity
+                            behaviour to so do principle mr.
+                          </div>
+                          <div
+                            class="self-stretch relative tracking-[0.01em] leading-[20px]"
+                          >
+                            Neat own nor she said see walk. And charm add green
+                            you these. Sang busy in this drew ye fine. At
+                            greater prepare musical so attacks as on distant.
+                            Improving age our her cordially intention. His
+                            devonshire sufficient precaution say preference
+                            middletons insipidity. Since might water hence the
+                            her worse. Concluded it offending dejection do
+                            earnestly as me direction. Nature played thirty all
+                            him.Cultivated who resolution connection motionless
+                            did occasional. Journey promise if it colonel. Can
+                            all mirth abode nor hills added. Them men does for
+                            body pure. Far end not horses remain sister. Mr
+                            parish is to he answer roused piqued afford sussex.
+                            It abode words began enjoy years no do no. Tried
+                            spoil as heart visit blush or. Boy possible blessing
+                            sensible set but margaret interest. Off tears are
+                            day blind smile alone had.Prevailed sincerity
+                            behaviour to so do principle mr.
+                          </div>
+                          <div
+                            class="self-stretch relative tracking-[0.01em] leading-[20px] [-webkit-text-stroke:1px_#7d7aed]"
+                          >
+                            Neat own nor she said see walk. And charm add green
+                            you these. Sang busy in this drew ye fine. At
+                            greater prepare musical so attacks as on distant.
+                            Improving age our her cordially intention. His
+                            devonshire sufficient precaution say preference
+                            middletons insipidity. Since might water hence the
+                            her worse. Concluded it offending dejection do
+                            earnestly as me direction. Nature played thirty all
+                            him.Cultivated who resolution connection motionless
+                            did occasional. Journey promise if it colonel. Can
+                            all mirth abode nor hills added. Them men does for
+                            body pure. Far end not horses remain sister. Mr
+                            parish is to he answer roused piqued afford sussex.
+                            It abode words began enjoy years no do no. Tried
+                            spoil as heart visit blush or. Boy possible blessing
+                            sensible set but margaret interest. Off tears are
+                            day blind smile alone had.Prevailed sincerity
+                            behaviour to so do principle mr.
+                          </div>
+                          <div
+                            class="self-stretch relative tracking-[0.01em] leading-[20px]"
+                          >
+                            Neat own nor she said see walk. And charm add green
+                            you these. Sang busy in this drew ye fine. At
+                            greater prepare musical so attacks as on distant.
+                            Improving age our her cordially intention. His
+                            devonshire sufficient precaution say preference
+                            middletons insipidity. Since might water hence the
+                            her worse. Concluded it offending dejection do
+                            earnestly as me direction. Nature played thirty all
+                            him.Cultivated who resolution connection motionless
+                            did occasional. Journey promise if it colonel. Can
+                            all mirth abode nor hills added. Them men does for
+                            body pure. Far end not horses remain sister. Mr
+                            parish is to he answer roused piqued afford sussex.
+                            It abode words began enjoy years no do no. Tried
+                            spoil as heart visit blush or. Boy possible blessing
+                            sensible set but margaret interest. Off tears are
+                            day blind smile alone had.Prevailed sincerity
+                            behaviour to so do principle mr.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="self-stretch bg-neutral-white box-border h-[72px] flex flex-row items-start justify-start p-4 gap-[16px] border-t-[1px] border-solid border-neutral-gray-gray-100"
+                >
+                  <div
+                    class="flex-1 rounded-lg bg-neutral-gray-gray-25 overflow-hidden flex flex-row items-center justify-start py-2 px-3 gap-[4px] border-[1px] border-solid border-neutral-gray-gray-100"
+                  >
+                    <div
+                      class="flex-1 h-6 overflow-hidden flex flex-row items-center justify-start"
+                    >
+                      <div
+                        class="relative tracking-[0.01em] leading-[20px] [background:linear-gradient(rgba(0,_0,_0,_0.2),_rgba(0,_0,_0,_0.2)),_linear-gradient(rgba(0,_0,_0,_0.2),_rgba(0,_0,_0,_0.2)),_linear-gradient(rgba(0,_0,_0,_0.2),_rgba(0,_0,_0,_0.2)),_#858d9d] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]"
+                      >
+                        Type your Question/Answer
+                      </div>
+                    </div>
+                    <img
+                      class="relative w-6 h-6 overflow-hidden shrink-0"
+                      alt=""
+                      src="{% static 'public/paper-clip.svg' %}"
+                    />
+                  </div>
+                  <div
+                    class="rounded-lg bg-primary-primary-500 overflow-hidden flex flex-row items-center justify-center p-2.5"
+                  >
+                    <img
+                      class="relative w-5 h-5 overflow-hidden shrink-0"
+                      alt=""
+                      src="{% static 'public/send.svg' %}"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="self-stretch relative bg-neutral-white box-border h-[72px] text-center text-primary-primary-500 border-t-[1px] border-solid border-neutral-gray-gray-100"
+                >
+                  <div
+                    class="absolute top-[15px] left-[248px] h-[25px] flex flex-row items-start justify-start gap-[8px]"
+                  >
+                    <div
+                      class="rounded-lg bg-primary-primary-100 w-8 h-8 overflow-hidden shrink-0 flex flex-row items-center justify-center p-1.5 box-border"
+                    >
+                      <img
+                        class="relative w-5 h-5 overflow-hidden shrink-0"
+                        alt=""
+                        src="{% static 'public/chevron-left.svg' %}"
+                      />
+                    </div>
+                    <div
+                      class="rounded-lg bg-primary-primary-500 w-8 h-8 overflow-hidden shrink-0 flex flex-row items-center justify-center p-1.5 box-border text-neutral-white"
+                    >
+                      <div
+                        class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+                      >
+                        1
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-lg bg-primary-primary-100 w-8 h-8 overflow-hidden shrink-0 flex flex-row items-center justify-center p-1.5 box-border"
+                    >
+                      <div
+                        class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+                      >
+                        2
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-lg bg-primary-primary-100 w-8 h-8 overflow-hidden shrink-0 flex flex-row items-center justify-center p-1.5 box-border"
+                    >
+                      <div
+                        class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+                      >
+                        3
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-lg bg-primary-primary-100 w-8 h-8 overflow-hidden shrink-0 flex flex-row items-center justify-center p-1.5 box-border"
+                    >
+                      <div
+                        class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+                      >
+                        4
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-lg bg-primary-primary-100 w-8 h-8 overflow-hidden shrink-0 flex flex-row items-center justify-center p-1.5 box-border"
+                    >
+                      <div
+                        class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+                      >
+                        5
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-lg bg-primary-primary-100 w-8 h-8 overflow-hidden shrink-0 flex flex-row items-center justify-center p-1.5 box-border"
+                    >
+                      <div
+                        class="flex-1 relative tracking-[0.01em] leading-[20px] font-semibold"
+                      >
+                        ...
+                      </div>
+                    </div>
+                    <div
+                      class="rounded-lg bg-primary-primary-100 w-8 h-8 overflow-hidden shrink-0 flex flex-row items-center justify-center p-1.5 box-border"
+                    >
+                      <img
+                        class="relative w-5 h-5 overflow-hidden shrink-0"
+                        alt=""
+                        src="{% static 'public/chevron-right.svg' %}"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="absolute top-[21px] left-[29px] flex flex-row items-center justify-center gap-[8px] text-left"
+                  >
+                    <div
+                      class="relative tracking-[0.01em] leading-[20px] font-medium"
+                    >
+                      Question 1
+                    </div>
+                    <div
+                      class="relative tracking-[0.01em] leading-[140%] font-medium text-neutral-gray-gray-300"
+                    >
+                      /
+                    </div>
+                    <div
+                      class="relative tracking-[0.01em] leading-[20px] font-medium text-neutral-black-black-500"
+                    >
+                      Question N
+                    </div>
+                  </div>
+                  <div
+                    class="absolute top-[15px] left-[643px] rounded-lg bg-primary-primary-500 w-[120px] h-[35px] overflow-hidden flex flex-row items-center justify-center p-2.5 box-border text-base text-neutral-white"
+                  >
+                    <b class="relative tracking-[0.01em] leading-[24px]"
+                      >Save</b
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
